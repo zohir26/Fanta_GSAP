@@ -55,3 +55,29 @@ tl1.to(".card-img",{
     rotate:"360deg",
     duration: 2,
 })
+
+var reviewtl=gsap.timeline({
+    scrollTrigger:{
+        trigger:".review",
+        start:"top 50%",
+        end:"bottom 15%",
+        scrub:true,
+        // markers:true,
+    }
+})
+reviewtl.to(".card1",{
+    scale:0.7,
+    opacity: 0,
+})
+reviewtl.to(".card2",{
+    scale:0.7,
+    opacity: 0,
+})
+reviewtl.to(".card3",{
+    scale:0.7,
+    opacity: 0,
+})
+reviewtl.to(".card4",{
+    scale:0.7,
+    opacity: 0,
+})
